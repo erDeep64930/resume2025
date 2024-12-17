@@ -1,9 +1,10 @@
+import Test from "@/app/temp/Test";
 
 
 const ProjectPage = () => {
   return (
     <div>
-      ProjectPage
+     <Test />
     </div>
   );
 }

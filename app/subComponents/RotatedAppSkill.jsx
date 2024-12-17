@@ -11,7 +11,7 @@ const RotatedAppSkill = () => {
                 <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
                     <div className="w-[5.75rem] aspect-square m-auto p-[0.1875rem]  rounded-full">
                         <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
-                            <p className='text-gradient font-robot font-semibold'>My Skills</p>
+                            <p className='text-gradient font-rye text-lg font-semibold'>My Skills</p>
                         </div>
                     </div>
                 </div>

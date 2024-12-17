@@ -5,6 +5,7 @@ import MySkills from "./MySkills/MySkills";
 import MyServices from "./myServices/MyServices";
 import ContactMe from "./contactMe/ContactMe";
 
+
 const HomePage = () => {
   return (
     <Layout>
@@ -12,6 +13,7 @@ const HomePage = () => {
       <MySkills />
       <MyServices />
       <ContactMe />
+      
     </Layout>
   );
 };

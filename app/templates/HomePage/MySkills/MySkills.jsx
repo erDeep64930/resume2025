@@ -21,10 +21,10 @@ const MySkills = () => {
           {/* <!-- right section --> */}
           <div className=" flex-1">
             <div className=" mx-auto">
-              <h1 className="font-rye text-4xl text-sec font-semibold text-center">
+              <h1 className="font-rye text-4xl text-gradient  font-semibold text-center">
                 My Web Development journey with these Tech stack:~
               </h1>
-              <p className="text-center font-meri text-sm lg:text-md mt-8 leading-6 tracking-wider text-pri">
+              <p className="text-center font-meri text-sm lg:text-md mt-8 leading-6 tracking-wider text-gray-400 ">
                 As a Web Developer involves working with different programming
                 languages, frameworks, and tools to build the front-end and
                 back-end of websites, ensuring they are functional, visually
