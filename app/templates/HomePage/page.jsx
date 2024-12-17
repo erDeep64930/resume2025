@@ -1,9 +1,9 @@
 import Layout from "@/app/shared/layout/Layout";
-import Test from "@/app/temp/Test";
+
 import MyIntro from "./MyIntro/MyIntro";
 import MySkills from "./MySkills/MySkills";
 import MyServices from "./myServices/MyServices";
-
+import ContactMe from "./contactMe/ContactMe";
 
 const HomePage = () => {
   return (
@@ -11,9 +11,9 @@ const HomePage = () => {
       <MyIntro />
       <MySkills />
       <MyServices />
-      <Test />
+      <ContactMe />
     </Layout>
   );
-}
+};
 
 export default HomePage;

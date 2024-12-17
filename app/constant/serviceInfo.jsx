@@ -10,14 +10,14 @@ export const serviceInfo = [
       id:2,
       pic:"/design.jpg",
       title:"React Frontend Development",
-      desc:"Responsive",
+      desc:"Figma to Code - Responsive",
   
     },
     {
       id:3,
       pic:"/sm.jpg",
       title:"React Development",
-      desc:"Functionality",
+      desc:"Fully Functional",
   
     },
   ]
