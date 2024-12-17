@@ -17,7 +17,7 @@ export const serviceInfo = [
       id:3,
       pic:"/sm.jpg",
       title:"React Development",
-      desc:"Fully Functional",
+      desc:"Website Redesign & Development",
   
     },
   ]

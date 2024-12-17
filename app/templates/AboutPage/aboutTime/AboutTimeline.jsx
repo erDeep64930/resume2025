@@ -2,14 +2,14 @@ import Heading from "@/app/components/Heading";
 
 const AboutTimeline = () => {
   return (
-    <div className="mt-32">
+    <div className="mt-32 mb-24">
       <Heading heading="My IT sector Journey" />
 
       <h1 className="my-4 text-center font-semibold text-3xl font-meri underline text-gradient">
         As React Developer
       </h1>
       <div className="h-screen w-full flex justify-center items-center mt-40">
-        <div className="max-w-5xl mx-auto w-full grid grid-cols-9 px-2">
+        <div className="max-w-5xl mx-auto w-full grid grid-cols-9 px-2 ">
           {/* <!-- Stack 1 --> */}
           <div className="col-span-4 w-full h-full ">
             <div className="w-full h-full border  rounded-md p-2 md:pl-4">
