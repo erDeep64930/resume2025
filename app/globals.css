@@ -73,3 +73,23 @@ body {
 }
 
 
+/* this is for service card what i offer to my client */
+
+.service-card {
+  width: auto;
+  height: 338px;
+  background: transparent;
+  border: 3px solid #7562e0;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+  border-radius: 16px;
+}
+
+.service-card:nth-child(even){
+  border: 3px solid white;
+}
+
+.service-card:hover{
+  border-color: #00bfff;
+}
+
+/* end here */

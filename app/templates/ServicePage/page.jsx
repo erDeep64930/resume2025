@@ -1,10 +1,11 @@
+import ServiceOffer from "./ServiceOffer/ServiceOffer";
 
 
 
 const ServicePage = () => {
   return (
     <div>
-      ServicePage
+      <ServiceOffer />
     </div>
   );
 }

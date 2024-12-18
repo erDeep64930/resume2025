@@ -29,7 +29,7 @@ const meri = Merienda({
 
 export const metadata = {
   title: "Data Scientist | React Developer",
-  description: "I just want to be a successful developer ",
+  description: "AI & ML Aspirant",
 };
 
 export default function RootLayout({ children }) {
