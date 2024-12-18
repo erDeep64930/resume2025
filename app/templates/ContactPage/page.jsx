@@ -1,10 +1,12 @@
 
+import GetMe from "./GetMe/GetMe";
+
 
 
 const ContactPage = () => {
   return (
     <div>
-      ContactPage
+     <GetMe />
     </div>
   );
 }

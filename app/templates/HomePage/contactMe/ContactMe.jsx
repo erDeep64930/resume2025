@@ -83,9 +83,10 @@ const ContactMe = () => {
                       ></textarea>
                     </div>
                     <div>
-                      <button className="py-2 px-3 border border-gray-600 rounded-md shadow bg-transparent text-pri hover:bg-white-500  hover:text-sec hover:shadow-xl  mr-1 flex items-center hover:scale-95 transition-all duration-300">
+                      {/* <button className="py-2 px-3 border border-gray-600 rounded-md shadow bg-transparent text-pri hover:bg-white-500  hover:text-sec hover:shadow-xl  mr-1 flex items-center hover:scale-95 transition-all duration-300">
                         Get In Touch <FcAdvance className="ml-2" />
-                      </button>
+                      </button> */}
+                      <button className="animated-btn">Get in Touch</button>
                     </div>
                   </form>
                 </div>

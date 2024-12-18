@@ -1,9 +1,12 @@
+import { IconBase } from "react-icons";
+
 export const servicesMenu = [
   {
     id: 1,
     name: "UI & UX DESIGNING",
     description: "I design beautiful web iterfaces with Figma and Adove XD",
-    image: "../src/assets/icons/ruler-pen.png"
+    image: "../src/assets/icons/ruler-pen.png",
+    IconB:""
   },
   {
     id: 2,

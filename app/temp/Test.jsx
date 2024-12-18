@@ -14,6 +14,7 @@ const Test = () => {
       <h1 className="font-robot text-3xl">this is font -robot</h1>
       <Heading heading="this is heading text" />
       <SubHeading SubHeading="this is subheading" />
+     
     </Wrapper>
   );
 };

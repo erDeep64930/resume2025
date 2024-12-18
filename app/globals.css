@@ -93,3 +93,28 @@ body {
 }
 
 /* end here */
+
+
+
+/* this is for animated button class */
+@layer components {
+  .animated-btn {
+    @apply font-bold border-2 px-5 py-2 relative transition-all duration-300 overflow-hidden z-10 w-full h-full rounded-lg;
+  }
+  .animated-btn::before,
+  .animated-btn::after {
+    @apply absolute content-[''] w-full h-full top-0 skew-x-12 -z-10;
+  }
+  .animated-btn::before {
+    @apply bg-pri left-[110%] transition-all duration-300;
+  }
+  .animated-btn::after {
+    @apply bg-amber-400 right-[110%] transition-all duration-300;
+  }
+  .animated-btn:hover::before {
+    @apply left-1/2;
+  }
+  .animated-btn:hover::after {
+    @apply right-1/2;
+  }
+}

@@ -1,10 +1,11 @@
 
 import Layout from '../shared/layout/Layout';
+import ContactPage from '../templates/ContactPage/page';
 
 const page = () => {
   return (
     <Layout>
-      contact
+      <ContactPage />
     </Layout>
   );
 }
