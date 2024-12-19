@@ -1,77 +1,36 @@
-"use client";
 import { navLinks } from "@/app/constant/navLinks";
-
 import Link from "next/link";
-import React, { useState, useRef, useEffect } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import React from "react";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [linksVisible, setLinksVisible] = useState(false); // New state for link visibility
-  const navRef = useRef();
-
-  // Toggle the mobile menu
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    setLinksVisible(!linksVisible); // Toggle link visibility
-  };
-
-  // Close the menu when clicked outside
-  const handleClickOutside = (event) => {
-    if (navRef.current && !navRef.current.contains(event.target)) {
-      setIsOpen(false);
-      setLinksVisible(false); // Close the links when clicking outside
-    }
-  };
-
-  useEffect(() => {
-    if (isOpen) {
-      document.addEventListener("click", handleClickOutside);
-    } else {
-      document.removeEventListener("click", handleClickOutside);
-    }
-
-    return () => {
-      document.removeEventListener("click", handleClickOutside);
-    };
-  }, [isOpen]);
-
   return (
-    <nav className="relative w-full z-50 shadow-md ">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
-      
+    <header className="z-[999] relative">
+      <div className=" fixed top-0 lg:left-96  h-[4.5rem] w-full  border border-white border-opacity-40 bg-white bg-opacity-20 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] rounded-full  "></div>
 
-        {/* Hamburger Icon */}
-        <button
-          onClick={toggleMenu}
-          className="lg:hidden  text-2xl focus:outline-none"
-        >
-          {isOpen ? <FaTimes /> : <FaBars />}
-        </button>
+      <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
+        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium  sm:w-[initial] sm:flex-nowrap sm:gap-5">
+          {navLinks.map((link) => (
+            <li
+              className="h-3/4 flex items-center justify-center relative"
+              key={link.id}
+            >
+              <Link
+                className={`
+                flex w-full items-center justify-center  text-pri hover:text-sec transition p-2 py-1",
+               `}
+                href={link.path}
+              >
+                <div className="p-2 bg-pri/5 rounded-full">
+                {link.icon}
+                </div>
+               
 
-        {/* Nav Links */}
-        <div
-          ref={navRef}
-          className={`lg:flex lg:items-center lg:static absolute bg-transparent  top-full   w-full lg:w-auto transition-all duration-300 ease-in-out text-center ${
-            isOpen || linksVisible
-              ? "max-h-screen "
-              : "lg:max-h-6 max-h-0 overflow-hidden "
-          }`}
-        >
-          <ul className="flex flex-col lg:flex-row lg:space-x-6 p-4 lg:p-0">
-            {navLinks.map((link) => (
-              <li key={link.id} className="hover:text-slate-600 text-slate-gray-950 hover:border-b hover:border-pri text-md font-semibold font-meri">
-                <Link href={link.path} className="block py-2 lg:py-0">
-                  {link.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-        
-      </div>
-     
-    </nav>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
   );
 };
 
