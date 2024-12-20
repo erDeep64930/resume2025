@@ -2,16 +2,17 @@ import { navLinks } from "@/app/constant/navLinks";
 import Link from "next/link";
 import React from "react";
 
+
 const Header = () => {
   return (
-    <header className="z-[999] relative">
-      <div className=" fixed top-0 lg:left-96  h-[4.5rem] w-full  border border-white border-opacity-40 bg-white bg-opacity-20 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] rounded-full  "></div>
-
-      <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
-        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium  sm:w-[initial] sm:flex-nowrap sm:gap-5">
+   
+ <header className="z-[999] relative">
+      <div className=" fixed top-8 lg:left-96  h-12 w-full  border border-white border-opacity-40 bg-white bg-opacity-20 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[28rem] lg:rounded-full mx-auto">
+     
+        <ul className="flex w-[22rem] mx-auto items-center justify-center gap-y-1 text-[0.9rem] font-medium text-center  ">
           {navLinks.map((link) => (
             <li
-              className="h-3/4 flex items-center justify-center relative"
+              className="h-3/4 flex items-center justify-center  mx-auto"
               key={link.id}
             >
               <Link
@@ -20,7 +21,7 @@ const Header = () => {
                `}
                 href={link.path}
               >
-                <div className="p-2 bg-pri/5 rounded-full">
+                <div className="p-2 bg-pri/5 rounded-full mx-auto">
                 {link.icon}
                 </div>
                
@@ -29,8 +30,11 @@ const Header = () => {
             </li>
           ))}
         </ul>
-      </nav>
+      </div>
+
     </header>
+   
+   
   );
 };
 
