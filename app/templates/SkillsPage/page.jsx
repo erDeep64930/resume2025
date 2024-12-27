@@ -1,9 +1,12 @@
+import BackendSkill from "./BackendSkill/BackendSkill";
+import FrontendSkill from "./FrontendSkill/FrontendSkill";
 
 
 const SkillsPage = () => {
   return (
     <div>
-      SkillsPage
+      <FrontendSkill />
+      <BackendSkill />
     </div>
   );
 }

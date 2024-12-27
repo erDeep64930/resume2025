@@ -1,5 +1,6 @@
 import Heading from "@/app/components/Heading";
 import Wrapper from "@/app/shared/Wrapper";
+import Link from "next/link";
 import React from "react";
 
 const IntroMe = () => {
@@ -18,20 +19,20 @@ const IntroMe = () => {
         {/* this is residence section  */}
         <div className=" flex flex-col items-center">
           <div className="w-1/2 relative m-6 text-center top-[20%] ">
-            <h5 className="animated-btn font-alkatra  ">
+            <h5 className="animated-btn  font-meri ">
               Residence :- New Delhi , India
             </h5>
           </div>
           <div className="w-1/2 relative m-6 text-center top-[20%] ">
-            <h5 className="animated-btn font-alkatra  ">
+            <h5 className="animated-btn font-meri">
               Freelancer :- Available
             </h5>
           </div>
           <div className="w-1/2 relative m-6 text-center top-[20%] ">
-            <h5 className="animated-btn font-alkatra  ">
-              <a href="/cv.pdf" target="_blank">
+            <h5 className="animated-btn font-meri">
+              <Link href="/cv.pdf" target="_blank">
                 Download CV
-              </a>
+              </Link>
             </h5>
           </div>
         </div>

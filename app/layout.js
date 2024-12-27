@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Merienda, Raleway, Roboto, Rye } from "next/font/google";
+import { Merienda, Raleway, Roboto, Rye } from "next/font/google";
 import "./globals.css";
 
 const rale = Raleway({
@@ -16,7 +16,7 @@ const rye = Rye({
 
 const robot = Roboto({
   subsets:['latin'],
-  weight:['100','300','500'],
+  weight:['400'],
   variable:'--font-roboto',
 })
 
