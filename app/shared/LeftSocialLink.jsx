@@ -15,7 +15,7 @@ const LeftSocialLinks = () => {
           LinkedIn <FaLinkedin size={28} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/deepak-kumar-403335271/",
       style: "rounded-tr-md",
     },
     {
@@ -25,7 +25,7 @@ const LeftSocialLinks = () => {
           GitHub <FaGithub size={28} />
         </>
       ),
-      href: "https://github.com/",
+      href: "https://github.com/erDeep64930",
     },
     {
       id: 3,
