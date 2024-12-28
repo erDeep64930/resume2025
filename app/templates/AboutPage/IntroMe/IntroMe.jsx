@@ -30,7 +30,7 @@ const IntroMe = () => {
           </div>
           <div className="w-1/2 relative m-6 text-center top-[20%] ">
             <h5 className="animated-btn font-meri">
-              <Link href="/cv.pdf" target="_blank">
+              <Link href="/resume.pdf" target="_blank">
                 Download CV
               </Link>
             </h5>
