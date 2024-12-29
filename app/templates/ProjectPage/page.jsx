@@ -1,10 +1,12 @@
-import Test from "@/app/temp/Test";
+
+import MyProjects from "./MyProjects/MyProjects";
 
 
 const ProjectPage = () => {
   return (
     <div>
-     <Test />
+      <MyProjects />
+     
     </div>
   );
 }
