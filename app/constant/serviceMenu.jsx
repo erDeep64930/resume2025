@@ -1,52 +1,57 @@
-import { IconBase } from "react-icons";
-import { FaHome } from "react-icons/fa";
+
+import { FaWordpress } from "react-icons/fa";
+import { MdContentPaste } from "react-icons/md";
+import { GiSpiderWeb, GiTwirlyFlower } from "react-icons/gi";
+import { TbPrompt } from "react-icons/tb";
+import { RiAiGenerate2 } from "react-icons/ri";
+
 
 export const servicesMenu = [
   {
     id: 1,
-    name: "UI & UX DESIGNING",
-    description: "I design beautiful web iterfaces with Figma and Adove XD",
+    name: "WEBSITE DEVELOPMENT",
+    description: "Website development involves designing, building, and maintaining websites. It includes front-end and back-end development, ensuring functionality, user experience, responsiveness, and performance to meet business or client objectives.",
     
-    Icon:<FaHome />,
+    Icon:<GiSpiderWeb />,
   },
   {
     id: 2,
-    name: "WEB DEVELOPMENT",
+    name: "WORDPRESS DEVELOPMENT",
     description:
-      "I create beautiful iterfaces with simple HTML, CSS, & JavaScript and also frameworks like Angular and ReactJS",
+      "WordPress development involves creating, customizing, and managing websites using the WordPress platform. It includes designing themes, developing plugins, optimizing performance, and ensuring functionality to meet client or business goals effectively.",
    
-    Icon:<FaHome />,
+    Icon:<FaWordpress />,
   },
   {
     id: 3,
-    name: "MOBILE DEVELOPMENT",
+    name: "CONTENT MARKETING",
     description:
-      "I am an expert mobile developer. I have experience using Flutter and React Native.",
+      "Content marketing involves creating, publishing, and distributing valuable, relevant content to attract and engage a target audience. It builds trust, drives traffic, and fosters conversions to achieve business goals.",
    
-    Icon:<FaHome />,
+    Icon:<MdContentPaste />,
   },
   {
     id: 4,
-    name: "VERSION CONTROL",
+    name: "LOGO DESIGNING",
     description:
-      "I can use version control systems well, and Git & Mecurial are my go-to tool.",
+      "Logo designing involves creating a unique, visually appealing symbol or graphic that represents a brand's identity. It combines creativity, typography, and color theory to communicate the brand’s values and mission.",
     
-    Icon:<FaHome />,
+    Icon:<GiTwirlyFlower />,
   },
   {
     id: 5,
-    name: "NPM AND NODEJS",
+    name: "PROMPT ENGINEERING",
     description:
-      "I have core understanding of NPM. I can also develop general purpose applications with NodeJS",
+      "Logo designing involves creating a unique, visually appealing symbol or graphic that represents a brand's identity. It combines creativity, typography, and color theory to communicate the brand’s values and mission.",
     
-    Icon:<FaHome />,
+    Icon:<TbPrompt />,
   },
   {
     id: 6,
-    name: "WEB SCRAPING",
+    name: "GEN AI",
     description:
-      "I can collect content and data from the internet then manipulate and analyze as needed.",
+      "Generative AI refers to artificial intelligence systems capable of creating new content, such as text, images, music, or code. It leverages machine learning models, like transformers, to produce outputs resembling human creativity.",
     
-    Icon:<FaHome />,
+    Icon:<RiAiGenerate2 />,
   }
 ];
