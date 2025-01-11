@@ -1,14 +1,10 @@
 import python from "../../public/eda/python.png";
-import pandas from "../../public/eda/pandas.svg";
-import numpy from "../../public/eda/numpy2.svg";
-import matplotlib from "../../public/eda/matplotlib.webp";
-import seaborn from "../../public/eda/python.svg";
+import pandas from "../../public/eda/pandas.png";
+import numpy from "../../public/eda/bar-graph.png";
+import matplotlib from "../../public/eda/matplotlib.png";
+import seaborn from "../../public/eda/business-chart.png";
 import statistics from "../../public/eda/description.png";
 import excel from "../../public/eda/excel.png";
-
-
-
-
 
 export const edaStack = [
     {
