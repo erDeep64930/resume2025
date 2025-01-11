@@ -6,6 +6,9 @@ const MyProjects = () => {
   return (
     <Wrapper>
       <Heading heading="My Projects"/>
+      <div className="text-center">
+        Graphic design is an art text of communication via typography | photos | Colors | Layout
+      </div>
     </Wrapper>
   );
 }

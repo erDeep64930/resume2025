@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="p-2 bg-pri/5 rounded-full mx-auto">
                   {link.icon}
                 </div>
-                <div className="text-[10px] p-[2px]">{link.name}</div>
+                <div className="text-[10px] p-[2px] hidden lg:block">{link.name}</div>
               </Link>
             </li>
           ))}
