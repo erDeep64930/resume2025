@@ -2,8 +2,6 @@ import AboutTimeline from "./aboutTime/AboutTimeline";
 import IntroMe from "./IntroMe/IntroMe";
 import Testimonial from "./testimonial/Testimonial";
 
-
-
 const AboutPage = () => {
   return (
     <div>
@@ -12,6 +10,6 @@ const AboutPage = () => {
       <Testimonial />
     </div>
   );
-}
+};
 
 export default AboutPage;

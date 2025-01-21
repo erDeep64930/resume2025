@@ -5,6 +5,7 @@ import MySkills from "./MySkills/MySkills";
 import MyServices from "./myServices/MyServices";
 import ContactMe from "./contactMe/ContactMe";
 import MyJourney from "./myJourney/MyJourney";
+import ShowCase from "./showCase/ShowCase";
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
       <MyIntro />
       <MySkills />
       <MyServices />
+      <ShowCase />
       <MyJourney />
       <ContactMe />
       
