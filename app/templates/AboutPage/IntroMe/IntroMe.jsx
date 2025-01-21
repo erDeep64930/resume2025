@@ -7,6 +7,7 @@ const IntroMe = () => {
   return (
     <Wrapper>
       <Heading heading="About me" />
+      
       <div className="md:grid grid-cols-2 mx-auto items-center">
         {/* this is about section */}
         <div className=" p-8 space-y-4  ">
