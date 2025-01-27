@@ -12,9 +12,7 @@ const IntroMe = () => {
         {/* this is about section */}
         <div className=" p-8 space-y-4  ">
           <p className="text-lg font-rale tracking-widest text-center leading-10 text-gradient ">
-            I am React.js & Next.js Frontend Developer . My goal is to build
-            fast , scalable Mobile first responsive website that clearly
-            communicate with visitors
+          Aspiring Data Scientist with a strong foundation in frontend development using React. Passionate about leveraging data-driven insights to solve complex problems and drive business decisions. Seeking to transition into a data science role where I can apply my analytical skills, programming expertise, and machine learning knowledge.
           </p>
         </div>
         {/* this is residence section  */}
